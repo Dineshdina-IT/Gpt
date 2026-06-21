@@ -1,0 +1,9 @@
+torch
+numpy
+pandas
+tqdm
+sentencepiece
+scikit-learn
+fastapi
+uvicorn
+pydantic
