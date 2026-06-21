@@ -3,9 +3,9 @@ import React, { createContext, useContext, useState, useEffect } from 'react';
 const SettingsContext = createContext();
 
 const DEFAULT_SETTINGS = {
-  model: 'gpt-4o',
-  temperature: 0.7,
-  maxTokens: 2048,
+  model: 'fast-finetuned',
+  temperature: 0.3,
+  maxTokens: 256,
   systemPrompt: 'You are an intelligent, helpful, and concise AI assistant.'
 };
 

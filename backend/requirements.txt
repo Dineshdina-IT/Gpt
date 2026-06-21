@@ -7,3 +7,6 @@ scikit-learn
 fastapi
 uvicorn
 pydantic
+transformers
+accelerate
+safetensors

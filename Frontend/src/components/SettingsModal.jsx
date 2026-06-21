@@ -65,7 +65,8 @@ export const SettingsModal = () => {
                   onChange={(e) => updateSetting('model', e.target.value)}
                   className="w-full rounded-lg border border-gray-200 dark:border-zinc-800 bg-white dark:bg-zinc-800 px-3 py-2.5 text-sm outline-none focus:border-brand-500 focus:ring-1 focus:ring-brand-500 transition-all cursor-pointer"
                 >
-                  <option value="gpt-4o">GPT-4o (Default)</option>
+                  <option value="fast-finetuned">Fast Fine-Tuned (Local)</option>
+                  <option value="gpt-4o">GPT-4o</option>
                   <option value="gpt-4-turbo">GPT-4 Turbo</option>
                   <option value="claude-3-5-sonnet">Claude 3.5 Sonnet</option>
                   <option value="gemini-1.5-pro">Gemini 1.5 Pro</option>

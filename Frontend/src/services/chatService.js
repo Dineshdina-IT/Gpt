@@ -4,7 +4,7 @@ const BASE_URL = 'http://localhost:8000';
 
 const api = axios.create({
   baseURL: BASE_URL,
-  timeout: 15000, // 15 seconds
+  timeout: 300000, // 5 minutes for local CPU model inference
   headers: {
     'Content-Type': 'application/json',
   },
